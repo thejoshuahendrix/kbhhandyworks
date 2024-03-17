@@ -3,12 +3,14 @@ import { content } from "../../content/content";
 
 const HeroImage = styled.div`
   width: 100%;
-  height: 500px;
+  height: 600px;
   background: url(${({ theme }) => theme.background.image});
   background-repeat: no-repeat;
-  background-position: middle;
-  background-size: cover;
-  background-attachment: fixed;
+  background-position: center top;
+  @media (max-width: ${({ theme }) => theme.mobile}) {
+    height: 300px;
+    background-position: left;
+  }
 `;
 
 const HeroText = styled.div`
@@ -35,8 +37,8 @@ const Hero = () => {
   return (
     <>
       <HeroImage>
-        <HeroText id="hero">{content.h1}</HeroText>
-        <HeroLowerText id="herotext">{content.h2}</HeroLowerText>
+        {/* <HeroText id="hero">{content.h1}</HeroText>
+        <HeroLowerText id="herotext">{content.h2}</HeroLowerText> */}
       </HeroImage>
     </>
   );

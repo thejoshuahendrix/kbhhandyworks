@@ -1,6 +1,6 @@
 import { DefaultTheme } from "styled-components"
-import darkBackground from '../assets/background1.png'
-import lightBackground from '../assets/background2.jpg'
+import darkBackground from '../assets/kbhcard.png'
+import lightBackground from '../assets/kbhcard.png'
 
 export const DarkTheme: DefaultTheme = {
   text: {
@@ -19,7 +19,7 @@ export const DarkTheme: DefaultTheme = {
     text: '#121212'
   },
   background: {
-    primary: '#121416',
+    primary: '#16181a',
     secondary: '#252627',
     ternary: "245245",
     image: darkBackground,
