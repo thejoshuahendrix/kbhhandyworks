@@ -5,8 +5,6 @@ import Navbar from "./components/layout/Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Hero from "./components/layout/Hero";
 import Home from "./components/pages/Home";
-import { Projects } from "./components/pages/Projects";
-import { Resume } from "./components/pages/Resume";
 import { Privacy } from "./components/pages/Privacy";
 
 const AppWrapper = styled.div`
@@ -50,8 +48,6 @@ const App = () => {
           <PageWrapper>
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/projects" element={<Projects />} />
-              <Route path="/resume" element={<Resume />} />
               <Route path="/privacy" element={<Privacy />} />
             </Routes>
           </PageWrapper>
