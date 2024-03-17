@@ -5,5 +5,8 @@ export const content = {
   p4: "Join me on this journey of innovation and let's create remarkable digital experiences together. Explore my portfolio and witness firsthand the caliber of my work and my unwavering dedication to pushing the boundaries of web development.",
   h1: "KBHHandyworks",
   h2: "Handyman for You",
-  logo:"KBH"
+  logo:"KBH",
+  abouth1:"About Us",
+  aboutp1:"KBHHandyworks is a family-owned and operated business that has been serving the community for over 20 years. We are dedicated to providing exceptional handyman services to our clients, and we take great pride in the quality of our work. Our team of skilled professionals is committed to delivering superior results and ensuring complete customer satisfaction.",
+  aboutp2: "With our extensive experience and attention to detail, we are able to handle a wide range of projects, from small repairs to large renovations. Our team of skilled craftsmen is dedicated to delivering high-quality workmanship and exceptional customer service. Whether you need help with plumbing, electrical, carpentry, or any other handyman service, KBHHandyworks is here to exceed your expectations.",
 };

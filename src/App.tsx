@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Hero from "./components/layout/Hero";
 import Home from "./components/pages/Home";
 import { Privacy } from "./components/pages/Privacy";
+import About from "./components/pages/About";
 
 const AppWrapper = styled.div`
   background-color: ${({ theme }) => theme.background.primary};
@@ -48,6 +49,7 @@ const App = () => {
           <PageWrapper>
             <Routes>
               <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
               <Route path="/privacy" element={<Privacy />} />
             </Routes>
           </PageWrapper>
