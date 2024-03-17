@@ -1,7 +1,11 @@
 import { StyledMenu } from "./Navbar";
 import { Link } from "react-router-dom";
 
-const Menu = ({ open }: any) => {
+interface Props {
+  open: boolean;
+}
+
+const Menu = ({ open }: Props) => {
   return (
     <StyledMenu id="burgermenu" open={open}>
       <Link style={{ textDecoration: "none" }} id="burgerhomelink" to="/">

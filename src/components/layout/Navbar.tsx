@@ -130,7 +130,7 @@ const Navbar = ({ themeChanger }: Props) => {
                     </>
                     }{isTabletOrMobile && <>
                         <Burger open={open} setOpen={setOpen} />
-                        <Menu  open={open} setOpen={setOpen} />
+                        <Menu  open={open} />
                     </>}
                 </LinkWrapper>
             </NavWrapper>
