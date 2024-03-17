@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { SkillsBanner } from "../skills/SkillsBanner";
 import { content } from "../../content/content";
 
 const HomeWrapper = styled.div`
@@ -33,8 +32,6 @@ const Home = () => {
       <p>
         {content.p4}
       </p>
-
-      <SkillsBanner />
     </HomeWrapper>
   );
 };

@@ -5,6 +5,7 @@ import styled, { useTheme } from 'styled-components';
 import { ToggleThemeButton } from './ToggleThemeButton'
 import Burger from './Burger';
 import Menu from './Menu';
+import { content } from '../../content/content';
 
 const TopBar = styled.div`
     height: 50px;
@@ -118,20 +119,14 @@ const Navbar = ({ themeChanger }: Props) => {
     return (
         <TopBar id="nav">
             <NavWrapper>
-                <Logo><Link id="homelink" style={{ textDecoration: "none" }} to='/'>JH</Link>
+                <Logo><Link id="homelink" style={{ textDecoration: "none" }} to='/'>{content.logo}</Link>
 
                 </Logo>
                 <LinkWrapper>
                     <ToggleThemeButton onClick={() => { setToggle(!toggle); themeChanger() }} active={toggle}  ></ToggleThemeButton>
 
                     {isDesktopOrLaptop && <>
-                        <Link id="projectslink" style={{ textDecoration: "none", fontSize: "20px", marginTop: '8px' }} to='/projects'>Projects</Link>
-                        <Link id="aboutlink" style={{ textDecoration: "none", fontSize: "20px", marginTop: '8px' }} to='/resume'>Resume</Link>
-                        {/* {isLoggedIn &&<Link id="postslink" style={{ textDecoration: "none", fontSize: "20px" }} to='/posts'>Posts</Link>}
-                        {isLoggedIn &&<Link id="chatlink" style={{ textDecoration: "none", fontSize: "20px" }} to='/chat'>Chat</Link>}
-                        {isLoggedIn &&<LogoutButton id="navlogoutbutton" />}
-                        {!isLoggedIn && <Link id="loginlink" style={{ textDecoration: "none", fontSize: "20px" }} to='/login'>Login</Link>}
-                        {!isLoggedIn && <Link id="registerlink" style={{ textDecoration: "none", fontSize: "20px" }} to='/register'>Register</Link>} */}
+                        <Link id="aboutlink" style={{ textDecoration: "none", fontSize: "20px", marginTop: '8px' }} to='/about'>About</Link>
                     </>
                     }{isTabletOrMobile && <>
                         <Burger open={open} setOpen={setOpen} />

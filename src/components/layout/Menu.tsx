@@ -10,18 +10,10 @@ const Menu = ({ open }: any) => {
       <Link
         style={{ textDecoration: "none" }}
         id="burgercontactlink"
-        to="/projects"
+        to="/about"
       >
-        Projects
+        About
       </Link>
-      <Link style={{ textDecoration: "none" }} id="burgeraboutlink" to="/resume">
-        Resume
-      </Link>
-
-      {/* {isLoggedIn && <Link id="burgerpostslink" style={{ textDecoration: "none"}} to='/posts'>Posts</Link>}
-            {isLoggedIn &&<LogoutButton id="burgerlogoutbutton" />}
-            {!isLoggedIn && <Link id="burgerloginlink" style={{ textDecoration: "none"}} to='/login'>Login</Link>}
-            {!isLoggedIn && <Link id="burgerregisterlink" style={{ textDecoration: "none"}} to='/register'>Register</Link>} */}
     </StyledMenu>
   );
 };
