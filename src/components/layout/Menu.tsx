@@ -11,12 +11,15 @@ const Menu = ({ open }: Props) => {
       <Link style={{ textDecoration: "none" }} id="burgerhomelink" to="/">
         Home
       </Link>
+      <Link style={{ textDecoration: "none" }} id="burgeraboutlink" to="/about">
+        About
+      </Link>
       <Link
         style={{ textDecoration: "none" }}
         id="burgercontactlink"
-        to="/about"
+        to="/contact"
       >
-        About
+        Contact
       </Link>
     </StyledMenu>
   );

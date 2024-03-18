@@ -147,6 +147,17 @@ const Navbar = ({ themeChanger }: Props) => {
               >
                 About
               </Link>
+              <Link
+                id="contactlink"
+                style={{
+                  textDecoration: "none",
+                  fontSize: "20px",
+                  marginTop: "8px",
+                }}
+                to="/contact"
+              >
+                Contact
+              </Link>
             </>
           )}
           {isTabletOrMobile && (

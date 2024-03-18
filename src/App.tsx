@@ -7,6 +7,7 @@ import Hero from "./components/layout/Hero";
 import Home from "./components/pages/Home";
 import { Privacy } from "./components/pages/Privacy";
 import About from "./components/pages/About";
+import { Contact } from "./components/pages/Contact";
 
 const AppWrapper = styled.div`
   background-color: ${({ theme }) => theme.background.primary};
@@ -50,6 +51,7 @@ const App = () => {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
+              <Route path="/contact" element={<Contact />} />
               <Route path="/privacy" element={<Privacy />} />
             </Routes>
           </PageWrapper>
