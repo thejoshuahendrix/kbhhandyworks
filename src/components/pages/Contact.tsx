@@ -1,4 +1,3 @@
-import React from "react";
 import { content } from "../../content/content";
 
 export const Contact = () => {
