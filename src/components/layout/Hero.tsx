@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { content } from "../../content/content";
+// import { content } from "../../content/content";
 
 const HeroImage = styled.div`
   width: 100%;
@@ -13,26 +13,26 @@ const HeroImage = styled.div`
   }
 `;
 
-const HeroText = styled.div`
-  z-index: 1;
-  text-align: center;
-  position: absolute;
-  top: 250px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: ${({ theme }) => theme.text.primary};
-  font-size: 72px;
-`;
-const HeroLowerText = styled.div`
-  z-index: 1;
-  text-align: center;
-  position: absolute;
-  top: 400px;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: ${({ theme }) => theme.text.primary};
-  font-size: 45px;
-`;
+// const HeroText = styled.div`
+//   z-index: 1;
+//   text-align: center;
+//   position: absolute;
+//   top: 250px;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   color: ${({ theme }) => theme.text.primary};
+//   font-size: 72px;
+// `;
+// const HeroLowerText = styled.div`
+//   z-index: 1;
+//   text-align: center;
+//   position: absolute;
+//   top: 400px;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   color: ${({ theme }) => theme.text.primary};
+//   font-size: 45px;
+// `;
 const Hero = () => {
   return (
     <>
