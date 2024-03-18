@@ -33,7 +33,7 @@ export const NavWrapper = styled.div`
 `;
 const Logo = styled.div`
   font-size: 30px;
-  width: 250px;
+  width: 150px;
   height: 40px;
   margin-left: -60px;
   margin-bottom: 5px;
