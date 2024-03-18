@@ -7,9 +7,10 @@ const HeroImage = styled.div`
   background: url(${({ theme }) => theme.background.image});
   background-repeat: no-repeat;
   background-position: center top;
+  background-size: contain;
   @media (max-width: ${({ theme }) => theme.mobile}) {
-    height: 300px;
-    background-position: left;
+    background-size: contain;
+    width: 100%;
   }
 `;
 
