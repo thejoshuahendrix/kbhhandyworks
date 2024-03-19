@@ -12,7 +12,11 @@ export const Contact = () => {
         Call or text me at:{" "}
         <a href={`tel:1-${content.phone}`}>1-{content.phone}</a>
       </p>
-      <p>Facebook Page (Coming Soon)</p>
+      <p>
+        <a href="https://www.facebook.com/profile.php?id=61557109726564&mibextid=ZbWKwL">
+          Facebook Page: Click Here
+        </a>
+      </p>
     </div>
   );
 };

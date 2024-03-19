@@ -9,9 +9,9 @@ export const content = {
   logo: "KBHHandyworks",
   abouth1: "About Us",
   aboutp1:
-    "KBHHandyworks is a family-owned and operated business that has been serving the community for over 20 years. We are dedicated to providing exceptional handyman services to our clients, and we take great pride in the quality of our work. Our team of skilled professionals is committed to delivering superior results and ensuring complete customer satisfaction.",
+    "KBHHandyworks is a full-service handyman company that provides a wide range of home improvement and repair services. We are committed to delivering exceptional workmanship and outstanding customer service. Whether you need help with plumbing, electrical, carpentry, or any other handyman service, KBH has you covered.",
   aboutp2:
-    "With our extensive experience and attention to detail, we are able to handle a wide range of projects, from small repairs to large renovations. Our team of skilled craftsmen is dedicated to delivering high-quality workmanship and exceptional customer service. Whether you need help with plumbing, electrical, carpentry, or any other handyman service, KBHHandyworks is here to exceed your expectations.",
+    "We are dedicated to providing the highest quality workmanship and customer service.",
   phone: "419-503-6095",
   location: "Serving the Greater Toledo Area",
   email: "keith@kbhhandyworks.com",
